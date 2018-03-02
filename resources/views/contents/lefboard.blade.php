@@ -107,7 +107,7 @@
 	<div class="ui segment" id="lastsegment">
 		<div id="activity">
 			<div class="content">
-				<div class="extra" style="display: inline;">ACTIVE SINCE:<strong> 12th of June, 2013</strong></div>
+				<div class="extra" style="display: inline;">ACTIVE SINCE:<strong> 12th of June,	 2013</strong></div>
 			</div>
 		</div>
 	</div>
