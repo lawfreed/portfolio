@@ -22,16 +22,16 @@
 	<div class="ui segment">
 		<div id="stats">
 			<div class="ui large label">
-				<i class="cube icon"></i>
-				PROJECT COUNT<span class="float right">2000</span>
+				<i class="skype icon"></i>
+				Skype<span class="float right">lawfreed@protonmail.com</span>
 			</div>
 			<div class="ui large label">
-				<i class="thumbs outline up icon"></i>
-				APPRECIATED<span class="float right">7577</span>
+				<i class="phone icon"></i>
+				Contact<span class="float right">+64 925 4924 319</span>
 			</div>
 			<div class="ui large label">
 				<i class="star icon"></i>	
-				FOLLOWERS<span class="float right">1039</span>
+				Commissions<span class="float right">1039</span>
 			</div>
 		</div>
 	</div>
@@ -107,7 +107,7 @@
 	<div class="ui segment" id="lastsegment">
 		<div id="activity">
 			<div class="content">
-				<div class="extra" style="display: inline;">ACTIVE SINCE:<strong> 12th of June,	 2013</strong></div>
+				<div class="extra" style="display: inline;">ACTIVE SINCE:<strong> JUNE 12, 2013</strong></div>
 			</div>
 		</div>
 	</div>

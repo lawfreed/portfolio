@@ -54,6 +54,12 @@ a#mobile_item.item img {
 #menu_desktop {
   position: relative;
 }
+#menu_desktop a {
+  font-weight: 700;
+}
+#menu_desktop a:hover {
+  background-color: transparent;
+}
 .logo img {
   width: 32px;
   height: 32px;
@@ -181,6 +187,17 @@ div.ui.segment #lastsegment {
   display:flex;
   justify-content:center;
   align-items:center;
+}
+
+/*comments*/
+.ui.comments {
+  max-width: 100%;
+}
+#uxui_event_modal div.scrolling.content img {
+  width: 100%;
+}
+#uxui_event_modal .ui.container {
+  padding: 1em 1em;
 }
 
 /*footer*/

@@ -1,6 +1,6 @@
 <div class="ui secondary pointing submaster menu">
 	<a class="blue active item" data-tab="uxui">
-		UX/UI
+		UI/UX
 	</a>
 	<a class="blue item" data-tab="branding">
 		Branding

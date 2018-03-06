@@ -26,7 +26,7 @@
             <div class="ui grid">
                 <div class="row">
                     <div class="right floated left aligned column">
-                        <button class="ui right floated button">
+                        <button id="share" class="ui right floated button">
                             <i class="share alternate icon"></i>
                             Share
                         </button>
