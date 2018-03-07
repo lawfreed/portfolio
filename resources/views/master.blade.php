@@ -11,8 +11,8 @@
     <link rel="stylesheet" type="text/css" href="css/custom.css">
 </head>
 <body>
-   @include('partials.navbar')
-   <div class="ui pushable segment">
+ @include('partials.navbar')
+ <div class="ui pushable segment">
     <div class="ui sidebar inverted vertical borderless menu">
         <a class="item">Menu Item 0</a>
         <a class="item">Facebook</a>

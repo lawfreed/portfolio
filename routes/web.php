@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('master');
 });
+
+Route::get('userprime', function () {
+    return view('userprime.dashboard');
+});
+

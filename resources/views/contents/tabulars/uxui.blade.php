@@ -4,19 +4,18 @@
       <div class="ui dimmer">
         <div class="content">
           <div class="center">
-           <h5><a @yield('model_view')
-                  @yield('branding_view')>VIEW</a></h5>
+           <h5><a class="uxui_view_modal">VIEW</a></h5>
           </div>
         </div>
       </div>
-      <img src="img/elyse.png">
+      <img src="img/uxui/lillypost_preview.jpg">
     </div>
     <div class="content">
       <div class="header">
         Art Title
       </div>
       <div class="meta">
-        <span class="date">CREATED IN 2013</span>
+        <span class="date">CREATED IN 2017</span>
       </div>
       <div class="description">
         Kristy is an art director living in New York.
@@ -34,8 +33,7 @@
 </div>
 
 <!-- Art View Modal -->
-<div class="ui longer large modal" @yield('model_event')
-                                   @yield('branding_event')>
+<div class="ui longer large modal" id="uxui_event_modal">
   <div class="header">Header</div>
   <div class="scrolling content">
     <img src="img/uxui/lillypost.jpg" alt="art">

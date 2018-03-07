@@ -3,22 +3,22 @@
 		@include('contents.partials.menubar')
 		<div class="ui active tab" data-tab="uxui">
 			<div class="ui segment">
-				@include('contents.tabulars.subtabs.uxui')
+				@include('contents.tabulars.uxui')
 			</div>
 		</div>
 		<div class="ui tab" data-tab="branding">
 			<div class="ui segment">
-				@include('contents.tabulars.subtabs.branding')
+				@include('contents.tabulars.branding')
 			</div>
 		</div>
 		<div class="ui tab" data-tab="visual">
 			<div class="ui segment">
-				@include('contents.tabulars.subtabs.visual')
+				@include('contents.tabulars.visual')
 			</div>
 		</div>
 		<div class="ui tab" data-tab="motion">
 			<div class="ui segment">
-				@include('contents.tabulars.subtabs.motion')
+				@include('contents.tabulars.motion')
 			</div>
 		</div>
 	</div>

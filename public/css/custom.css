@@ -189,14 +189,35 @@ div.ui.segment #lastsegment {
   align-items:center;
 }
 
-/*comments*/
+/*modal views*/
 .ui.comments {
   max-width: 100%;
+}
+.ui.modal > .content {
+  padding: 0;
 }
 #uxui_event_modal div.scrolling.content img {
   width: 100%;
 }
 #uxui_event_modal .ui.container {
+  padding: 1em 1em;
+}
+#branding_event_modal div.scrolling.content img {
+  width: 100%;
+}
+#branding_event_modal .ui.container {
+  padding: 1em 1em;
+}
+#visual_event_modal div.scrolling.content img {
+  width: 100%;
+}
+#visual_event_modal .ui.container {
+  padding: 1em 1em;
+}
+#motion_event_modal div.scrolling.content img {
+  width: 100%;
+}
+#motion_event_modal .ui.container {
   padding: 1em 1em;
 }
 
@@ -218,4 +239,17 @@ div.ui.segment #lastsegment {
   color: #f0f0f0;
   font-size: .8rem;
   font-weight: 100;
+}
+
+/*dashboard*/
+#boxize {
+  margin-top: 5em;
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+@media screen and (max-width: 1660px) {
+  #boxize {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
 }
