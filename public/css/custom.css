@@ -269,6 +269,9 @@ div.ui.segment #lastsegment {
 .ui.secondary.segment{
   background: transparent;
 }
+.ui.stacked.secondary.segment {
+  box-shadow: none;
+}
 a.hvr-ripple-out:before {
   border: #0057ff solid 5px;
 }
