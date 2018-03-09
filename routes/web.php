@@ -19,3 +19,11 @@ Route::get('admin', function () {
     return view('admin.login');
 });
 
+Route::get('dashboard', function () {
+	$names = [
+		'Mr.',
+		'World',
+		'Wide'
+	];
+    return view('admin.dashboard', compact('names'));
+});

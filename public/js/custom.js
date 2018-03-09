@@ -33,17 +33,13 @@ $('.motion_view_modal').click(function() {
       $('.ui.form')
         .form({
           fields: {
-            email: {
-              identifier  : 'email',
+            username: {
+              identifier  : 'username',
               rules: [
                 {
                   type   : 'empty',
-                  prompt : 'Please enter your e-mail'
+                  prompt : 'Please enter your username'
                 },
-                {
-                  type   : 'email',
-                  prompt : 'Please enter a valid e-mail'
-                }
               ]
             },
             password: {
@@ -55,7 +51,7 @@ $('.motion_view_modal').click(function() {
                 },
                 {
                   type   : 'length[6]',
-                  prompt : 'Your password must be at least 6 characters'
+                  prompt : 'Your password must be at least 6 characters long'
                 }
               ]
             }

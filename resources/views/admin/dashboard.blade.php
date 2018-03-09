@@ -13,7 +13,7 @@
 	<div id="boxize">
 		<div class="ui grid">
 			<div class="row">
-				<h1>DASHBOARD</h1>
+				<h1>Hallo, @foreach($names as $name){{ $name }}&nbsp @endforeach</h1>
 			</div>
 		</div>
 	@include('partials.footer') 
