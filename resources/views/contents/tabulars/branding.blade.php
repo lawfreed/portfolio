@@ -5,36 +5,41 @@
         <div class="content">
           <div class="center">
            <h5><a class="branding_view_modal">VIEW</a></h5>
-          </div>
-        </div>
-      </div>
-      <img src="img/branding/droneponents_preview.jpg">
+         </div>
+       </div>
+     </div>
+     <img src="img/branding/droneponents_preview.jpg">
+   </div>
+   <div class="content">
+    <div class="header">
+      Droneponents
     </div>
-    <div class="content">
-      <div class="header">
-        Droneponents
-      </div>
-      <div class="meta">
-        <span class="date">CREATED IN 2018</span>
-      </div>
-      <div class="description">
-        Simple logo design for a stratup that creates drones with custom parts the client specified.
-      </div>
+    <div class="meta">
+      <span class="date">CREATED IN 2018</span>
     </div>
-    <div class="extra content">
-      <span class="right floated">
-        <i class="heart outline like icon"></i>
-        17
-      </span>
-      <i class="comment icon"></i>
-      3 comments
+    <div class="description">
+      Simple logo design for a stratup that creates drones with custom parts the client specified.
     </div>
   </div>
+  <div class="extra content">
+    <span class="right floated">
+      <i class="heart outline like icon"></i>
+      17
+    </span>
+    <i class="comment icon"></i>
+    3 comments
+  </div>
+</div>
 </div>
 
 <!-- Art View Modal -->
 <div class="ui longer large modal" id="branding_event_modal">
-  <div class="header">Header</div>
+  <div class="ui actions headers">
+    <div class="ui left floated header">
+      Card Title
+    </div>  
+    <a class="cancel"><i class="close icon"></i></a>
+  </div>
   <div class="scrolling content">
     <img src="img/branding/droneponents_2.png" alt="art">
   </div>

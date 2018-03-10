@@ -14,11 +14,12 @@
 		<div class="ui grid">
 			<div class="row">
 				<h1>Hallo, @foreach($names as $name){{ $name }}&nbsp @endforeach</h1>
+				<a class="upload_view_modal">modal test</a>
 			</div>
 		</div>
 	@include('partials.footer') 
 	</div>
-
-	@include('partials.scripts')
+	@include('contents.uploads.cards')
+@include('partials.scripts')
 </body>
 </html>

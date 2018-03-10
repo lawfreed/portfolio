@@ -15,11 +15,11 @@ Route::get('/', function () {
     return view('master');
 });
 
-Route::get('admin', function () {
+Route::get('/admin', function () {
     return view('admin.login');
 });
 
-Route::get('dashboard', function () {
+Route::get('/dashboard', function () {
 	$names = [
 		'Mr.',
 		'World',

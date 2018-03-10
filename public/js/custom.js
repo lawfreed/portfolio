@@ -26,6 +26,9 @@ $('.visual_view_modal').click(function() {
 $('.motion_view_modal').click(function() {
 	$('#motion_event_modal').modal('show');
 });
+$('.upload_view_modal').click(function() {
+  $('#upload_event_modal').modal('show');
+});
 
 // LOGIN
   $(document)

@@ -31,6 +31,7 @@ i.icon {
 .float.right {
   float: right;
 }
+
 /*navigation bar*/
 .ui.menu {
   border-radius: 0;
@@ -151,7 +152,6 @@ div.ui.segment #lastsegment {
   color: #191919;
 }
 
-
 /*rytboard*/
 #rytboard {
   padding: 0;
@@ -196,6 +196,10 @@ div.ui.segment #lastsegment {
 .ui.modal > .content {
   padding: 0;
 }
+.ui.left.floated.header {
+  margin-bottom: 0;
+  margin-top: -5px;
+}
 #uxui_event_modal div.scrolling.content img {
   width: 100%;
 }
@@ -219,6 +223,34 @@ div.ui.segment #lastsegment {
 }
 #motion_event_modal .ui.container {
   padding: 1em 1em;
+}
+
+/*cards*/
+#upload_event_modal .ui.content .ui.equal.width.form {
+  margin: 1em;
+}
+#upload_event_modal .ui.form div.field input {
+  border-radius: 0;
+}
+#upload_event_modal .ui.form div.field textarea {
+  border-radius: 0;
+}
+#upload_event_modal div.fluid.buttons button {
+  height: 36px;
+  border-radius: 0;
+}
+#upload_event_modal button {
+  font-size: 1rem;
+}
+#upload_event_modal div.ui.fluid.buttons span.negative {
+  margin-left: 10px;
+}
+#upload_event_modal button[type=submit] {
+  background-color: #2185d0;
+  color: #fff;
+}
+#upload_event_modal button[type=submit]:hover {
+  background-color: #0057ff;
 }
 
 /*footer*/
@@ -275,7 +307,6 @@ div.ui.segment #lastsegment {
 a.hvr-ripple-out:before {
   border: #0057ff solid 5px;
 }
-
 
 /*dashboard*/
 #boxize {
