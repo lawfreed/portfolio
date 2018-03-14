@@ -43,7 +43,7 @@
   </div>
   <div class="scrolling content">
     <!-- <img src="img/uxui/lillypost.jpg" alt="art"> -->
-    <img src="{{ asset('/uploads/contents/GmXZXuxAvaHo4jkOK2rhge9FYGvdzrPzeqek5BwJ.png') }}" alt="image">
+    <img src="{{ asset('storage/uploads/contents/GmXZXuxAvaHo4jkOK2rhge9FYGvdzrPzeqek5BwJ.png') }}" alt="image">
   </div>
   <div class="ui container">
     <div class="ui threaded comments">
