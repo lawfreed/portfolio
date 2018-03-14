@@ -8,7 +8,8 @@
          </div>
        </div>
      </div>
-     <img src="img/uxui/lillypost_preview.jpg">
+     <!-- <img src="img/uxui/lillypost_preview.jpg"> -->
+     <img src="{{ asset('storage/uploads/previews/wPMXtiDxs2QA7yETPgK8waMtfCUMzh31AsGXanD6.png') }}" alt="image">
    </div>
    <div class="content">
     <div class="header">
@@ -41,7 +42,8 @@
     <a class="cancel"><i class="close icon"></i></a>
   </div>
   <div class="scrolling content">
-    <img src="img/uxui/lillypost.jpg" alt="art">
+    <!-- <img src="img/uxui/lillypost.jpg" alt="art"> -->
+    <img src="{{ asset('storage/uploads/contents/GmXZXuxAvaHo4jkOK2rhge9FYGvdzrPzeqek5BwJ.png') }}" alt="image">
   </div>
   <div class="ui container">
     <div class="ui threaded comments">

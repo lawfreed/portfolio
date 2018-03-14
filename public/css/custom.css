@@ -1,5 +1,7 @@
 /*globals*/
-
+html, body {
+  background-color: #f0f0f0 !important;
+}
 i.icon {
   margin: 0;
 }
@@ -42,6 +44,7 @@ i.icon {
 .pushable.segment{
   margin: 0 !important;
 }
+
 /*navigation bar mobile*/
 a#mobile_item.item {
   border: 0;
@@ -51,6 +54,7 @@ a#mobile_item.item img {
   width: 25px;
   height: 25px;
 }
+
 /*navigation bar logo*/
 #menu_desktop {
   position: relative;
@@ -226,8 +230,11 @@ div.ui.segment #lastsegment {
 }
 
 /*cards*/
-#upload_event_modal .ui.content .ui.equal.width.form {
-  margin: 1em;
+#upload_event_modal .ui.content {
+  padding: 1em;
+}
+#upload_event_modal .ui.dropdown {
+  border-radius: 0;
 }
 #upload_event_modal .ui.form div.field input {
   border-radius: 0;
@@ -244,6 +251,13 @@ div.ui.segment #lastsegment {
 }
 #upload_event_modal div.ui.fluid.buttons span.negative {
   margin-left: 10px;
+}
+#upload_event_modal div.field input[type=file] {
+  border-style: none;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-top: .2rem;
 }
 #upload_event_modal button[type=submit] {
   background-color: #2185d0;
@@ -277,19 +291,19 @@ div.ui.segment #lastsegment {
 #login_body .grid div.column {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 45%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 #login_body .image {
-  margin-top: -100px;
+  margin-top: -50px;
 }
 #login_body .column {
-  max-width: 450px;
+  max-width: 350px;
 }
 #login_body div.content img {
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
 }
 .submit.button, .submit.button:hover {
   color: #fff;
@@ -310,7 +324,7 @@ a.hvr-ripple-out:before {
 
 /*dashboard*/
 #boxize {
-  margin-top: 5em;
+  padding-top: 2rem;
   margin-left: 15vw;
   margin-right: 15vw;
 }
@@ -319,4 +333,10 @@ a.hvr-ripple-out:before {
     margin-left: 5vw;
     margin-right: 5vw;
   }
+}
+#boxize div.ui.grid div.row div.right.floated.left.aligned.column {
+  padding: 0 1rem;
+}
+#boxize div.ui.grid div.twelve.wide.stretched.column div.ui.segment {
+  padding: 0;
 }

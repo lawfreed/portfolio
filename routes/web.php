@@ -15,15 +15,6 @@ Route::get('/', function () {
     return view('master');
 });
 
-Route::get('/admin', function () {
-    return view('admin.login');
-});
-
-Route::get('/dashboard', function () {
-	$names = [
-		'Mr.',
-		'World',
-		'Wide'
-	];
-    return view('admin.dashboard', compact('names'));
-});
+Route::get('/admin', 'AdminController@login');
+Route::get('/admin/dashboard', 'DashboardController@card')->name('upload.card_file','upload.preview');
+Route::post('/admin/dashboard', 'DashboardController@store');
